@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: Lato, Helvetica, sans-serif;
+}
+
+img.brand-logo{
+  width:160px;
+  padding-bottom:5px;
+}
+
+.nav.navbar-nav>li>a, .nav.navbar-nav>li>a:focus{
+	color:#d30031;
+}
+
+.slider-background>img{
+    z-index: 200;
+    left: 0;
+    top: 0;
+
+   
+}
+
+.container.services{
+	padding-top:20px;
+}
+
+.btn-learn-more{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid #ccc;  
+    width:100%; 
+    font-weight:900;
+}
+
+.btn-learn-more:hover{
+	border: 2px solid #d30031;  
+}
+
+a.btn-learn-more, a.btn-learn-more:hover, a.btn-learn-more:focus{
+	text-decoration:none;
+	color:black;
+}
